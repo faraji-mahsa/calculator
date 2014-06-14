@@ -49,6 +49,7 @@ public class Calculator extends JFrame implements ActionListener{
 	
 	Font f12 = new Font("Times New Roman", 0, 12);
 	Font f121 = new Font("Times New Roman", 1, 12);
+Font f121 = new Font("Times New Roman", 1, 12);
 //##########################################################################################################
 	// Constructor 
 	public Calculator() 
@@ -58,7 +59,7 @@ public class Calculator extends JFrame implements ActionListener{
 		 * Have Provided some JMenuItem components with Keyboard Accelerators
 		 */ 
 		
-jmenuFile = new JMenu("File");
+        jmenuFile = new JMenu("File");
 		jmenuFile.setFont(f121);
 		jmenuFile.setMnemonic(KeyEvent.VK_F);
 		
