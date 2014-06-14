@@ -49,7 +49,7 @@ public class Calculator extends JFrame implements ActionListener{
 	
 	Font f12 = new Font("Times New Roman", 0, 12);
 	Font f121 = new Font("Times New Roman", 1, 12);
-//#######################################################################################################
+//##########################################################################################################
 	// Constructor 
 	public Calculator() 
 	{
