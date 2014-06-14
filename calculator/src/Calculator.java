@@ -49,7 +49,7 @@ public class Calculator extends JFrame implements ActionListener{
 	
 	Font f12 = new Font("Times New Roman", 0, 12);
 	Font f121 = new Font("Times New Roman", 1, 12);
-	
+//#######################################################################################################
 	// Constructor 
 	public Calculator() 
 	{
@@ -58,7 +58,7 @@ public class Calculator extends JFrame implements ActionListener{
 		 * Have Provided some JMenuItem components with Keyboard Accelerators
 		 */ 
 		
-		jmenuFile = new JMenu("File");
+jmenuFile = new JMenu("File");
 		jmenuFile.setFont(f121);
 		jmenuFile.setMnemonic(KeyEvent.VK_F);
 		
@@ -120,7 +120,7 @@ public class Calculator extends JFrame implements ActionListener{
 		jbnButtons[19] = new JButton("%");
 		
 		jplBackSpace = new JPanel();
-		jplBackSpace.setLayout(new GridLayout(1, 1, 2, 2));
+		jplBackSpace.setLayout(new GridLayout(1, 1, 9, 2));
 
 		jbnButtons[20] = new JButton("Backspace");
 		jplBackSpace.add(jbnButtons[20]);
@@ -215,8 +215,10 @@ public class Calculator extends JFrame implements ActionListener{
 			}
 		);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-	}	//End of Contructor Calculator
-
+		// END OF CONSTRUCTOR
+	}	 
+	 
+//###################################################################################################################
 	// Perform action
 	public void actionPerformed(ActionEvent e){
 		double result = 0;
@@ -551,7 +553,7 @@ public class Calculator extends JFrame implements ActionListener{
 		Calculator calci = new Calculator();
 		Container contentPane = calci.getContentPane();
 //		contentPane.setLayout(new BorderLayout());
-		calci.setTitle("Java Swing Calculator");
+		calci.setTitle("Calculator");
 		calci.setSize(241, 217);
 		calci.pack();
 		calci.setLocation(400, 250);
