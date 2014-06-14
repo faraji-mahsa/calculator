@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Sat Jun 14 13:16:47 IRDT 2014
+onejar.license.required=true
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=calculator_fat.jar
+manifest.mergeall=true
+manifest.mainclass=Calculator
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=
+includes=
