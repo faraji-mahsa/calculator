@@ -46,10 +46,10 @@ public class Calculator extends JFrame implements ActionListener{
 	 * Font(String name, int style, int size)
       Creates a new Font from the specified name, style and point size.
 	 */
-	
+Font f12 = new Font("Times New Roman", 0, 12);	
 	Font f12 = new Font("Times New Roman", 0, 12);
 	Font f121 = new Font("Times New Roman", 1, 12);
-Font f121 = new Font("Times New Roman", 1, 12);
+
 //##########################################################################################################
 	// Constructor 
 	public Calculator() 
